@@ -9,7 +9,7 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 from pyrogram import Client
 
 import config
-from ROYEDITX.modules import all_modules
+from KARTIK.modules import all_modules
 
 logging.basicConfig(
     format="[%(asctime)s - %(levelname)s] - %(name)s - %(message)s",
@@ -36,7 +36,7 @@ class LOCOPILOT(Client):
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
-            plugins=dict(root="ROYEDITX.modules"),
+            plugins=dict(root="KARTIK.modules"),
         )
 
     async def start(self):

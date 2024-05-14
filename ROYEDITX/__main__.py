@@ -1,6 +1,6 @@
-from ROYEDITX import LOGGER, LOCOPILOT 
+from KARTIK import LOGGER, LOCOPILOT 
 
 if __name__ == "__main__":
-    LOGGER.info("❖ ᴛʜᴇ ᴀᴠɪsʜᴀ ᴄʜᴀᴛ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ.")
+    LOGGER.info("❖ ᴛʜᴇ KARTIK ᴄʜᴀᴛ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ.")
     LOCOPILOT().run()
   
